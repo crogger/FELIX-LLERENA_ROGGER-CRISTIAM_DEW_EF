@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import './Header.css'                          // Asegúrate de tener un logo en esta ruta
+import './Header.css'   
 
 const Header = () => {
     return (
