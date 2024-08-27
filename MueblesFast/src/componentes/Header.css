@@ -1,0 +1,48 @@
+.logo{
+    margin-left: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo h2{
+    
+    font-size: 40px;
+    color: orange;
+    margin-left: 10px;
+}
+
+.logo-image {
+    width: 60px;
+    height: 60px;
+    margin-left: 60px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.logo-image:hover {
+    transform: scale(1.2);
+}
+
+.header{
+    background: #f6f4d2;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: orange 5px solid;
+}
+.redes-sociales{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-right: 70px;
+}    
+.redes-sociales .rs {
+    width: 40px;
+    margin: 0 10px;
+    transition: transform 0.3s, filter 0.3s ease-in-out;
+}
+
+.redes-sociales .rs:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
